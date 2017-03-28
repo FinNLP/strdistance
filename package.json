@@ -1,0 +1,31 @@
+{
+  "name": "strdistance",
+  "version": "0.0.1",
+  "description": "String distance calculator",
+  "main": "./dist/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "ts-node test/test.ts",
+    "prepublish": "ts-node test/test.ts && tsc",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FinNLP/strdistance.git"
+  },
+  "keywords": [
+    "string",
+    "distance"
+  ],
+  "author": "Alex Corvi <alex@arrayy.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FinNLP/strdistance/issues"
+  },
+  "homepage": "https://github.com/FinNLP/strdistance#readme",
+  "devDependencies": {
+    "@types/node": "^7.0.12"
+  }
+}
